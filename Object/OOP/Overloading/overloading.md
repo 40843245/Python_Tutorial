@@ -30,17 +30,17 @@ But there are some details we have to care about.
 
 Behaviour of operators may be changed when the behaviour of one or many other functions or operators is changed.
 
-Some examples that behaviour of operators IS ALWAYS changed when the behaviour of one or many other functions or operators is changed.
+Some examples that behaviour of operators is ALWAYS changed when the behaviour of one or many other functions or operators is changed.
 
 1. In C/C++, arithmetic assigment operators.
 
 About the arithmetic assignment operators in C/C++, we have that 
 
-x <op>=y is equivalent to x=x<op>y 
+x <assign_op>=y is equivalent to x=x<assign_op>y 
 
-  where <op> is one of arithmetic assignment operators +,-,*,/,%.
+  where <assign_op> is one of arithmetic assignment operators +,-,*,/,%.
   
- If the operator <op> is overloaded , then the corresponding assigment operator <op>= will also be overloaded.
+ If the operator <assign_op> is overloaded , then the corresponding assigment operator <assign_op>= will also be overloaded.
  
  For example, 
   
