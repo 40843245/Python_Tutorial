@@ -3,46 +3,21 @@
 
 Polymorphism means multiple forms.
 
-Image the situation in your daily life.
+Because polymorphism, we can declare functions with same name but with different types.
 
-You love pets.
+Such as the function cat() which adds two numbers and concatenate two strings.
 
-So, you have lots of pets. You have a dog, a cat and a snake.
+## Example
+### Example Code
+#### Example Code 1
+The code in the following link is an example of polymorphism in Python.
 
-Dogs can bark (saying bark).
+https://github.com/40843245/Python_Tutorial/blob/main/Object/OOP/Polymorphism/polymorphism%20example/polymorphism_ex1.py
 
-Cats can mow (saying mow).
-
-Snakes can hiss (saying hiss).
-
-You put your favorite pets into same big cage.
-
-In one day, one of your friend visit you, watching your favorite pets.
-
-Then ask you, what are sounds of your favorite snake?
-
-You hope the friend listening to the real sound. 
-
-So, you search all your cage, finding the snake and then you require it to hiss.
-
-Just for listening to one sound, you have to search all your cage. 
-
-It wastes many time, does it?
-
-Here, I come up with a better idea to save your time.
-
-First, you record sounds of each pet.
-
-Second, rename the file and put them into same folder.
-
-After that, when one wants to listening the sounds, you just have to play the files.
-
-Some readers may think that what is the relationship between the story and concepts of polymorphism.
-
-If you don't use the techinique polymorphism, you have to directly write the name of the objects. 
-
-If you do, you don't have to directly write the name of objects.
-
+#### Example Code 2
 The code in the following link is an example of polymorphism in C++.
 
 https://github.com/40843245/CPP/blob/main/Object/OOP/inheritence/MRO/MRO%20example/mro_ex1.cpp
+
+## Ref
+https://www.geeksforgeeks.org/polymorphism-in-python/
