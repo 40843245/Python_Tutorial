@@ -37,13 +37,13 @@ add=staticmethod(add)
 
 ## Syntax
 
-  @<builtin identifiers>
+  @<builtin_identifiers>
 
 is equivalent to
   
-  <builtin identifiers> ()
+  <builtin_identifiers> ()
   
-  where <built-in identifiers> is any built-in functions that used to mark something.
+  where <builtin_identifiers> is any built-in functions that used to mark something.
   
 ## NOTICE
   
