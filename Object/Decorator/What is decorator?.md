@@ -58,6 +58,12 @@ is equivalent to
   
 Example above.
 
+## Desgining Goal:
+
+See the "Design Goal section" of the following link in reference section.
+
+https://peps.python.org/pep-0318/#warningwarningwarning
+
 ## Ref:
 
 1. Simply intro to decorators.
@@ -69,4 +75,8 @@ https://www.geeksforgeeks.org/decorators-in-python/
 
 https://www.python.org/search/?q=Decorator&submit=
 
+
+3. Intro to decorator.
+
+https://peps.python.org/pep-0318/#warningwarningwarning
 
