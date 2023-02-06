@@ -36,15 +36,25 @@ class Operation:
 add=staticmethod(add)
 
 ## Syntax
+The syntax is very simple.
+
+Just insert @ and its reserved function name and its argument before functions or methods or attributes or classes.
+
+## Equivalence syntax and its intro
+
 They are equivalent.
 
   @<builtin_identifiers>
 
 and
   
-  <builtin_identifiers> ()
+  <builtin_identifiers>()
   
   where <builtin_identifiers> is any built-in functions that used to mark something.
+  
+  
+
+## Equivalence sample.
 
 They are equivalent.
 
@@ -63,9 +73,19 @@ and
     
   func = dec2(dec1(func))
   
+They are equivalent.
+  
+  @decomaker(argA, argB, ...)
+  
+  def func(arg1, arg2, ...):
+  
+    pass
+    
+   func = decomaker(argA, argB, ...)(func)
+   
 ## NOTICE
   
-  NOTE that the () is NOT needed and can NOT be used when decorator is used. 
+  NOTE that the () is NOT needed and can NOT be used when decorator is used.
   
   Except that a function with many ()s when NOT use decorators.
     
