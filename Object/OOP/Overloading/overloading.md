@@ -36,7 +36,7 @@ Some examples that behaviour of operators IS ALWAYS changed when the behaviour o
 
 About the arithmetic assignment operators in C/C++, we have that 
 
-x <op> =y is equivalent to x=x <op> y 
+x <op>=y is equivalent to x=x<op>y 
 
   where <op> is one of arithmetic assignment operators +,-,*,/,%.
   
