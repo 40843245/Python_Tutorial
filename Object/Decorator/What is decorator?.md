@@ -36,14 +36,32 @@ class Operation:
 add=staticmethod(add)
 
 ## Syntax
+They are equivalent.
 
   @<builtin_identifiers>
 
-is equivalent to
+and
   
   <builtin_identifiers> ()
   
   where <builtin_identifiers> is any built-in functions that used to mark something.
+
+They are equivalent.
+
+  @dec2
+  @dec1
+  
+  def func(arg1, arg2, ...):
+  
+      pass
+  
+and 
+  
+  def func(arg1, arg2, ...):
+  
+    pass
+    
+  func = dec2(dec1(func))
   
 ## NOTICE
   
