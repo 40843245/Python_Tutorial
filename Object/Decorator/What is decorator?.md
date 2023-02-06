@@ -49,6 +49,11 @@ Other ways on the "Syntax form" section of the following link.
 
 https://peps.python.org/pep-0318/#warningwarningwarning
 
+### NOTE 
+NOTE that I'm NOT sure other way than @ way can be accepted in Python compilers. 
+
+I haven't tried them before, even if I haven't  heard them before.
+
 ## Equivalence syntax and its intro
 
 They are equivalent.
