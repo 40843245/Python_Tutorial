@@ -35,6 +35,28 @@ def
   
 """
   
+## NOTICE
+ 1. The help() displays the help message instead of returning a string object, 
+  
+  so we don't have to use the print statement to display the help message.
+ 
+ 2. The help() returns a NonType object insteas of a string object, 
+  
+  so if we use the print statement as the following statement, None will be displayed in console.
+  
+  And the type of the returning object is NoneType.
+  
+  More details on the following example.
+  
+  x=help(<object-name>)
+  
+  print(x) # Output: None
+  
+  print(type(x)) # Output: <class 'NoneType'>
+  
+  
+  
+  
 ## Example
 NOTE that I run the Python code in Spyder of Anaconda Navigator.
 
