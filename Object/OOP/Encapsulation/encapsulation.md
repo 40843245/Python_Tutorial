@@ -22,33 +22,17 @@ Snakes can hiss (saying hiss).
 
 You put your favorite pets into same big cage.
 
-In one day, one of your friend visit you, watching your favorite pets.
+You encapsulate them into same big cage.
 
-Then ask you, what are sounds of your favorite snake?
+## Advantage
+Although one writes more code, it is more easily to read and understand
 
-You hope the friend listening to the real sound. 
+and provide a way to access for a variable whose protection level is private, making it safer.
 
-So, you search all your cage, finding the snake and then you require it to hiss.
+## Example Code In CPP
+https://github.com/40843245/CPP/blob/main/Object/OOP/Encapsulation/encapsulation_ex1.cpp
 
-Just for listening to one sound, you have to search all your cage. 
-
-It wastes many time, does it?
-
-Here, I come up with a better idea to save your time.
-
-First, you record sounds of each pet.
-
-Second, rename the file and put them into same folder.
-
-After that, when one wants to listening the sounds, you just have to play the files.
-
-Some readers may think that what is the relationship between the story and concepts of encapsulation.
-
-If you don't use the techinique encapsulation, you have to directly write the name of the objects. 
-
-If you do, you don't have to directly write the name of objects.
-
-For example,
-
+## Ref
+https://www.geeksforgeeks.org/encapsulation-in-python/
 
 
