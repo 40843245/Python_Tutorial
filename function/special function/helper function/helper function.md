@@ -213,3 +213,38 @@ object_getattribute(obj, name)
 None
   
 <class 'NoneType'>
+
+## Example 3
+### Example Code
+  def object_getattribute(obj, name):
+    
+    ## message in help function
+
+    null = object()
+    
+    objtype = type(obj)
+    
+    """
+    
+    Emulate PyObject_GenericGetAttr() in Objects/object.c
+    
+    """
+    
+  
+x=help(object_getattribute)
+  
+print(x)
+  
+print(type(x))
+  
+## Example Output In Console
+
+None
+  
+Help on function object_getattribute in module __main__:
+
+object_getattribute(obj, name)
+
+None
+  
+<class 'NoneType'>
