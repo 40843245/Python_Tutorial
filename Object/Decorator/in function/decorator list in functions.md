@@ -11,4 +11,5 @@ In this article, I will list some commonly used decorators for functions and its
   To determine which type of parameters can be accepted.
 
 2. returns:
+
   To determine which type of returned value.
