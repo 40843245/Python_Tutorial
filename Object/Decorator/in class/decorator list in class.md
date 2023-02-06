@@ -1,6 +1,8 @@
 # Decorator List
 I will list commonly used decorator and its meaning.
 
+## List
+
 1. staticmethod
 2. property
 3. classmethod
@@ -14,7 +16,7 @@ All these examples of the following link are possible today, though without synt
 
 https://peps.python.org/pep-0318/#warningwarningwarning
 
-## List
+## Meaning
 
 1. staticmethod:
 
