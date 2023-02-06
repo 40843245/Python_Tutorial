@@ -149,10 +149,9 @@ None
   
 <class 'NoneType'>
 
-##Example 2
-### Example Code
+### Example 2
+#### Example Code
   
-
 def object_getattribute(obj, name):
     
     ## message in help function
@@ -197,7 +196,8 @@ print(x)
   
 print(type(x))
 
-### Example Output In Console
+#### Example Output In Console
+  
 <bound method DirtyWord.Is_DirtyWord of <__main__.DirtyWord object at 0x00000291C909C100>>
 
 Help on function object_getattribute in module __main__:
@@ -214,8 +214,8 @@ None
   
 <class 'NoneType'>
 
-## Example 3
-### Example Code
+### Example 3
+#### Example Code
   def object_getattribute(obj, name):
     
     ## message in help function
@@ -237,8 +237,41 @@ print(x)
   
 print(type(x))
   
-## Example Output In Console
+#### Example Output In Console
 
+Help on function object_getattribute in module __main__:
+
+object_getattribute(obj, name)
+
+None
+  
+<class 'NoneType'>
+
+### Example 4
+#### Example Code
+
+def object_getattribute(obj, name):
+  
+    ## message in help function
+
+    null = object()
+    
+    """
+  
+    Emulate PyObject_GenericGetAttr() in Objects/object.c
+  
+    """
+    
+    objtype = type(obj)
+    
+x=help(object_getattribute)
+  
+print(x)
+  
+print(type(x))
+
+#### Example Output In Console
+  
 Help on function object_getattribute in module __main__:
 
 object_getattribute(obj, name)
