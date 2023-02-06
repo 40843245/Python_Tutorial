@@ -239,8 +239,6 @@ print(type(x))
   
 ## Example Output In Console
 
-None
-  
 Help on function object_getattribute in module __main__:
 
 object_getattribute(obj, name)
