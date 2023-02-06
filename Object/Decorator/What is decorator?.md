@@ -31,3 +31,16 @@ class Operation:
    return x+y
    
 add=staticmethod(add)
+
+## Ref:
+
+1. Simply intro to decorators.
+
+https://www.geeksforgeeks.org/decorators-in-python/
+
+
+2. Search results by the keyword decorator in python.org .
+
+https://www.python.org/search/?q=Decorator&submit=
+
+
