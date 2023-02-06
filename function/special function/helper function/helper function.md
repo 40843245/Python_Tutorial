@@ -26,8 +26,12 @@ Recall that the fact.
 The string which is written in many line must be quotated with three double-quote.
  
 Such as the following example code.
+  
 s="""
+  
 abc
+  
 def
+  
 """
   
