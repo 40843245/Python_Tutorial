@@ -12,7 +12,30 @@ Additionally, it is allowed for multiple-level inheritence.
 For a class, the order of the class inherits to is called 
 MRO (Multiple Resolution Order).
 
-MRO decides the priority the compilers find for a identifier when needed.
+MRO decides the priority the compiler finds for a identifier when needed.
+
+When the compiler finds for a identifier? 
+When you use the identifier.
+
+## How to get the MRO of a class?
+
+In Python, you don't have to implement it
+
+since there is a builit-in method and attribute in Python.
+
+F.__mro__
+
+and
+
+F.mro()
+
+To get a tuple type,
+
+F.__mro__
+
+To get a list type,
+
+F.mro()
 
 ## Example
 ### Example 1
