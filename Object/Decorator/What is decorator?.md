@@ -1,4 +1,7 @@
 # Decorator
+## Symbol
+@
+
 ## What is a decorator in Python?
 A decorator is a shorthand way to decorate and modify the functions, methods, attributes, or classes.
 
