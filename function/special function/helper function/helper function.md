@@ -114,3 +114,15 @@ print(x)
 print(type(x))
   
 #### Example Output In Console
+
+<bound method DirtyWord.Is_DirtyWord of <__main__.DirtyWord object at 0x00000291CA5700A0>>
+  
+Help on function object_getattribute in module __main__:
+
+object_getattribute(obj, name)
+  
+    Emulate PyObject_GenericGetAttr() in Objects/object.c
+
+None
+  
+<class 'NoneType'>
