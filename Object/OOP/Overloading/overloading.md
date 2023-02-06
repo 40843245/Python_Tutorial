@@ -50,11 +50,11 @@ x <assign_op>=y is equivalent to x=x<assign_op>y
   
  The reason why is the C/C++ compiler consider the statement 
  
-  x<op>=y 
+  x<assign_op>=y 
  
  as 
 
-  x = x <op> y
+  x = x <assign_op> y
     
 Some examples that behaviour of operators NEVER be changed when the behaviour of one or many other functions or operators is changed.
   
