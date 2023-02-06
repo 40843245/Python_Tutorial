@@ -36,9 +36,18 @@ class Operation:
 add=staticmethod(add)
 
 ## Syntax
-The syntax is very simple.
+
+Although there are many ways to use decorator, 
+
+I will introduce the most commonly used and must be accepted in any Python 3.x compiler at present.
+
+@ way.
 
 Just insert @ and its reserved function name and its argument before functions or methods or attributes or classes.
+
+Other ways on the "Syntax form" section of the following link.
+
+https://peps.python.org/pep-0318/#warningwarningwarning
 
 ## Equivalence syntax and its intro
 
@@ -98,7 +107,7 @@ Example above.
 
 ## Desgining Goal:
 
-See the "Design Goal section" of the following link in reference section.
+See the "Design Goal section" of the following link.
 
 https://peps.python.org/pep-0318/#warningwarningwarning
 
