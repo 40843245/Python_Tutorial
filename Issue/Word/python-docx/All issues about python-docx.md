@@ -2,9 +2,7 @@
 ## Q1: Is there any way to know how many pages are there in a .docx file?
 At present, NO.
 
-The reason why is
-
-1. Different size will get different counts:
+1. One says:
 
   There isn't a way to do it in python-docx. 
 
@@ -18,6 +16,18 @@ The reason why is
 
   I sometimes get different results with the same data depending on whether I'm on Windows of macOS.
 
-https://codesti.com/issue/python-openxml/python-docx/1142#:~:text=There%20isn%27t%20a%20way%20to%20do%20it%20in,size%20pages%2C%20which%20will%20produce%20different%20page%20counts.
+(from the link https://codesti.com/issue/python-openxml/python-docx/1142#:~:text=There%20isn%27t%20a%20way%20to%20do%20it%20in,size%20pages%2C%20which%20will%20produce%20different%20page%20counts.)
 
-## Ref
+2. While other one says:
+
+  A .docx file contains no concept of a "page". 
+  
+  The content of the document is divided into pages by the renderer, 
+  
+  maybe the Word application or Google Docs or whatever, 
+  
+  based on the printer capabilities and available fonts. 
+  
+  So there is no general-case method to discover the number of "pages" in a document file.
+ 
+(from the link https://stackoverflow.com/questions/70660132/how-to-fetch-total-no-of-pages-count-in-python-docx.)
