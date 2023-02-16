@@ -9,6 +9,10 @@ If you don't care about it, the slightly difference may cause unexpected result 
 
 In this article, I will talk the main differences.
 
+As for these details and the history of changes, see the above website. The above website gives detailed explanation. 
+
+To save your time, I will list these main differences.
+
 1) Division operator.
 
 Before Python 2.7, 
@@ -25,3 +29,14 @@ Before Python 2.7,
  
  are both integer type). 
  
+2) Text v.s. binary 
+
+In Python 2, 
+
+     you don't have to worried about the issue when using str for both text and binary data.
+     
+However, in Python 3. It may cause exceptions or unexpected results if 
+
+    you mix these data (text and binary data).
+    
+For convenience, I really recommend you that you DON't handle both text and binary data at same project when design API.
