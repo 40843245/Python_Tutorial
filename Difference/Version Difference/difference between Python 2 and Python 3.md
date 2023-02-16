@@ -40,3 +40,21 @@ However, in Python 3. It may cause exceptions or unexpected results if
     you mix these data (text and binary data).
     
 For convenience, I really recommend you that you DON't handle both text and binary data at same project when design API.
+
+3) Issues about package and modules compatibility.
+
+Some packages can be used in Python 2 but can NOT be used in Python 3.
+
+Similarly, some packages can be used in Python 3 but can NOT be used in Python 2.
+
+For example,
+
+    1) importlib2 v.s. importlib
+    
+    importlib2 is used for Python 2. While importlib is used for Python 3.
+    
+    2) urllib v.s. urllib3
+    
+    urllib is used for Python 2. While urllib3 is used for Python 3.
+    
+    
