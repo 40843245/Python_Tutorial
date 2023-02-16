@@ -19,11 +19,43 @@ It is pity that
 ## Example
 ### Example 1
 #### Example Input 
-from collections import OrderedDictd = OrderedDict([('first', 1),   ('second', 2),       ('third', 3)])d.items()
+
+### Example 1
+#### Example Input 
+class Quote_ENUM():
+    singleQuote="'"
+    
+    pairSingleQuote=[singleQuote,singleQuote]
+    
+    doubleQuote='"'
+    
+    pairDoubleQuote=[doubleQuote,doubleQuote]
+    
+    #pair=[pairSingleQuote,pairDoubleQuote]
+    
+    #pair=[singleQuote,doubleQuote]
+    
+    singleQuoteL=[singleQuote]
+    
+    doubleQuoteL=[doubleQuote]
+    
+    
+    pair=[singleQuoteL,doubleQuoteL]
 
 #### Example Output
 
-from collections import OrderedDictd = OrderedDict([('first', 1),   ('second', 2),       ('third', 3)])list(d.items())
+(incomplete)
+    
+    enum Quote_ENUM{
+        singleQuote='\'',
+        pairSingleQuote=[singleQuote,singleQuote],
+        doubleQuote='"',
+        pairDoubleQuote=[doubleQuote,doubleQuote],
+        singleQuoteL=[singleQuote],
+        doubleQuoteL=[doubleQuote],
+        pair=[singleQuoteL,doubleQuoteL]
+    };
+
 
 ### Example 2
 #### Example Input 
