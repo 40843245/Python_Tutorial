@@ -22,41 +22,14 @@ Since
 NOT identation!!!
 
 ### Example 1
-#### Example Input 
-class Quote_ENUM():
-    singleQuote="'"
-    
-    pairSingleQuote=[singleQuote,singleQuote]
-    
-    doubleQuote='"'
-    
-    pairDoubleQuote=[doubleQuote,doubleQuote]
-    
-    #pair=[pairSingleQuote,pairDoubleQuote]
-    
-    #pair=[singleQuote,doubleQuote]
-    
-    singleQuoteL=[singleQuote]
-    
-    doubleQuoteL=[doubleQuote]
-    
-    
-    pair=[singleQuoteL,doubleQuoteL]
+#### Example Input
+
+from collections import OrderedDictd = OrderedDict([('first', 1),   ('second', 2),       ('third', 3)])d.items()
    
 
 #### Example Output
 
-(incomplete)
-    
-    enum Quote_ENUM{
-        singleQuote='\'',
-        pairSingleQuote=[singleQuote,singleQuote],
-        doubleQuote='"',
-        pairDoubleQuote=[doubleQuote,doubleQuote],
-        singleQuoteL=[singleQuote],
-        doubleQuoteL=[doubleQuote],
-        pair=[singleQuoteL,doubleQuoteL]
-    };
+from collections import OrderedDictd = OrderedDict([('first', 1),   ('second', 2),       ('third', 3)])list(d.items())
 
 ### Example 2
 #### Example Input 
