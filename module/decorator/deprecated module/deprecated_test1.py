@@ -1,3 +1,8 @@
+## ------------------------- ##
+# Link:
+# https://pypi.org/project/Deprecated/
+## ------------------------- ##
+
 from deprecated import deprecated
 
 
