@@ -30,6 +30,9 @@ As the following example.
 
     GeekObject()
 
+Output:
+
+https://github.com/40843245/Python_Tutorial/blob/main/Object/callable/callable.jpg
 
 ## Ref
 
