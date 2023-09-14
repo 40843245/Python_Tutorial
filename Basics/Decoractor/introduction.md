@@ -106,6 +106,7 @@ The reason why it occurs is about the simple facts.
 
     The keyword staticmethod is NOT in-place in Python. That is, calling staticmethod in the above statement will NOT change the BaseClass().BaseFunc1 .
 
+
 ###### NOTICE
 If we look it carefully, we will find that the address of staticmethod is NOT same as BaseClass.BaseFunc1. 
 
