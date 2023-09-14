@@ -18,7 +18,7 @@ If you forget them or are not familiar with them, I high recommend you to visit 
 
 ## Introduction to Decorator
 
-For quick understanding, take a quick glance at the following four pairs first. (Each pair has at least two equivalent pieces of code.)
+For quick understanding, take a quick glance at the following first pair.
 ### Pair
 #### Pair 1
 ##### Code 1
@@ -241,3 +241,19 @@ For more details, see the next Code.
         [True, <class 'bool'>]
         [False, <class 'bool'>]
 ###### Explanation
+
+By the output of Pair 1, Code 4, we can know the a method with attribute staticmethod will be a static method (If we don't mark it then it would be a non-static method).
+
+A.f is a non-static method
+
+A.g is a static method.
+
+It is approaches better than the above approach in Pair 1, Code 3 section, isn't it?
+
+### What is decorator?
+Decorator is a symbol to mark the attribute to a method in class or function. 
+
+As above codes in Pair 1, we don't have to write an extra statement, taking less work.
+
+## Symbol 
+There are many ways to represent a 
