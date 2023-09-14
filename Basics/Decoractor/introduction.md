@@ -255,5 +255,46 @@ Decorator is a symbol to mark the attribute to a method in class or function.
 
 As above codes in Pair 1, we don't have to write an extra statement, taking less work.
 
+## Syntax
+They are roughly equivalent.
+
+    @f1(arg)
+    @f2
+    class Foo: pass
+
+and 
+
+    class Foo: pass
+    Foo = f1(arg)(f2(Foo))
+
+However, it is more restrictive before PEP 614
+For more details about relaxing decorator in PEP 614, see 
+
+https://peps.python.org/pep-0614/
+
 ## Symbol 
-There are many ways to represent a 
+There are many ways to represent decorator. The most common way to do it is add a symbol at front of the keyword def. Shown in above codes.
+
+In history, there are many different ways. However, due to historical reason ( really? really!!! ) and convenience, the other symbol than @ is deprecated.
+
+I can NOT ensure that they will be removed in the future.
+
+Thus, I high recommend to use symbol @.
+
+## My Speech
+I remember that I have posted an article about some common decorator in Python in the account. 
+
+I will offer the link in this artcile in the future (if I have chance to do so).
+
+It's in night. Good night, everyone. (In fact, I want to finish reading an article about enclosing in Python)
+
+## Ref
+Python Official Docs:
+
+https://docs.python.org/3/glossary.html#term-decorator
+
+https://docs.python.org/3/reference/compound_stmts.html#function
+
+https://docs.python.org/3/reference/compound_stmts.html#class
+
+https://peps.python.org/pep-0614/
