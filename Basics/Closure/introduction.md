@@ -1,10 +1,11 @@
 # Closure in Python
 ## Objectives
-I will discuss these topics in this artcile.
+I will discuss these topics in this article.
 
     1. What is closure?
     2. Application about closure in Python.
     3. How to use closure in Python.
+    4. Implementation of closure 
 
 ## Prequisite
     
@@ -195,7 +196,7 @@ While function with name inner is user-defined in the func scope (inside a funct
 
 When use inner variable, we DO use function closure.
 
-## See also
+## Under the hood -- __closure__
 
 ## Ref
 
