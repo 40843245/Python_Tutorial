@@ -17,9 +17,9 @@ I will discuss these topics in this article.
 ## Preface 
 To quick understand about closure in Python, let's take a glance at several pieces of code and its explanation.
 
-## Code
-### Code 1
-    
+## Example
+### Examples 1
+#### Code
     def return_default(value):
         def deco(func):
             def wrapped(*args, **kwargs):
@@ -44,8 +44,8 @@ To quick understand about closure in Python, let's take a glance at several piec
 #### Output
     10
     python
-## Code 2
-
+### Example 2
+#### Code
     def return_default(value):
         def deco(func):
             def wrapped(*args, **kwargs):
@@ -198,6 +198,11 @@ While function with name inner is user-defined in the func scope (inside a funct
 
 When use inner variable, we DO use function closure.
 
+## Application
+### Why do we have to learn it?
+One of reason is that for more convenience to write your own decorator. 
+See Example 0 and Example 1.
+
 ## Implementation of closure in Python
 
     The attribute "__closure__".
@@ -213,7 +218,7 @@ I will ask several question.
     
     It is created once nce it is accessed at first time. Before that, it is always None. 
     
-    See Examples 1.
+    See Examples 3.
 
 ![image](https://github.com/40843245/Python_Tutorial/assets/75050655/9e8cdf2a-8926-43a7-a7df-b27d7fba9d9d)
 
@@ -225,10 +230,10 @@ I will ask several question.
 
     When inner scope uses a free variable, then it will implicitly define in outer scope.
 
-    See Example 2.
+    See Example 4.
     
 ## Examples
-### Example 1
+### Example 3
 #### Code 
     def foo():
             a = 3
@@ -239,7 +244,7 @@ I will ask several question.
     print(y.__closure__ is None)
 #### Output
     True
-### Example 2
+### Example 4
 #### Code 
     def foo():
         a = 3
@@ -260,8 +265,6 @@ I will ask several question.
     3
 
 ![image](https://github.com/40843245/Python_Tutorial/assets/75050655/5178888c-237e-4b13-8490-d00f8b1b2e71)
-
-    
 
 ## Ref
 
