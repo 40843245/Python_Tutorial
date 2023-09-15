@@ -37,6 +37,21 @@ I will discuss these topics in this artcile.
     msg = greeting(None)
     print(msg)
 
+### Explanation
+We can easily know the fact that the attribute return_default can make a function to return default value when the func does NOT return value.
+
+In the func call of x = at_least_10(3) .
+
+The return statement does NOT be executed. Thus, it will return default value. Here, it will return 10.
+
+Without return_default attribute marked, the default value for return is None.
+
+In the func call of msg = greeting(None) .
+
+The return statement does NOT be executed. Thus, it will return default value. Here, it will return "python".
+
+
+
 ## Ref
 
 https://dboyliao.medium.com/%E8%81%8A%E8%81%8A-python-closure-ebd63ff0146f
