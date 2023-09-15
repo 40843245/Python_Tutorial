@@ -11,6 +11,8 @@ I will discuss these topics in this artcile.
     1. function (including default value in function)
     2. class
     3. object
+## Preface 
+To quick understand about closure in Python, let's take a glance at several pieces of code and its explanation.
 
 ## Code
 ### Code 1
@@ -86,6 +88,11 @@ The return statement does NOT be executed. Thus, it will return default value. H
 In Code 2, we use the the following attribute to get the info of closure function in Python.
         
         __closure__ 
+
+## Introduction to Closure
+From wiki,
+
+    a closure (also lexical closure or function closure) is a technique for implementing lexically scoped name binding in a language with first-class functions.
 
 
 ## Ref
