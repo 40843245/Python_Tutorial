@@ -94,7 +94,21 @@ From wiki,
 
     a closure (also lexical closure or function closure) is a technique for implementing lexically scoped name binding in a language with first-class functions.
 
+For most people, you will NOT understand the meaning of these terms. Let's give explanations of these terms.
 
+### What is binding?
+Roughly said, binding determines the value of variable when lookup (i.e.access). Such as when assignment 
+
+    x = 3
+
+and simple lookup value
+
+    print(x)
+
+### What is lexically binding?
+
+### What is variable lookup table?
+Variable lookup table is a table that stores the pair of variable and its value. 
 ## Ref
 
 https://dboyliao.medium.com/%E8%81%8A%E8%81%8A-python-closure-ebd63ff0146f
