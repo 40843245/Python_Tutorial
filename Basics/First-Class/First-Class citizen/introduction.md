@@ -16,7 +16,7 @@ It has these features.
 
     3. Ability to return a function from another function.
 
-## Detailed explanations for features in Python.
+### Detailed explanations for features in Python.
 1. Ability to treat functions as values:
 
 For example:
@@ -49,7 +49,17 @@ For example:
         
     Func2()
 
+## Alias -- First-Class Object
+According to Wiki,
+
+https://en.wiktionary.org/wiki/first-class_citizen
+
+it says that first-class citizen is a symonym of the term First-Class object.
+
+I will introduce what is First-Class object in next section.
+
 ## First-Class Object
+
 From a question whose title is " What are "first-class" objects? " in statckoverflow,
 
 https://stackoverflow.com/questions/245192/what-are-first-class-objects
@@ -76,6 +86,10 @@ According to the above definition. This can imply:
 A simple introduction.
 
 https://www.geeksforgeeks.org/what-is-first-class-citizen-in-javascript/
+
+A detailed explanation to First-Class object.
+
+https://stackoverflow.com/questions/245192/what-are-first-class-objects
 
 ## Advance Reading
 https://en.wikipedia.org/wiki/First-class_citizen
