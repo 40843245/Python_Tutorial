@@ -5,13 +5,15 @@ I will discuss these topics in this article.
     1. What is closure?
     2. Application about closure in Python.
     3. How to use closure in Python.
-    4. Implementation of closure 
+    4. Implementation of closure. "__closure__"
+    5. Notes about  "__closure__".
 
 ## Prequisite
     
     1. function (including default value in function)
     2. class
     3. object
+    
 ## Preface 
 To quick understand about closure in Python, let's take a glance at several pieces of code and its explanation.
 
@@ -196,7 +198,70 @@ While function with name inner is user-defined in the func scope (inside a funct
 
 When use inner variable, we DO use function closure.
 
-## Under the hood -- __closure__
+## Implementation of closure in Python
+
+    The attribute "__closure__".
+    
+    Data type of "__closure__" is a tuple. Thus, it is immutable. On the other hand, it is readonly.
+
+## NOTES
+I will ask several question.
+
+    1. Does the attribute "__closure__" of the object is not None once it is defined as a non-local variable?
+
+    NO!!! 
+    
+    It is created once nce it is accessed at first time. Before that, it is always None. 
+    
+    See Examples 1.
+
+![image](https://github.com/40843245/Python_Tutorial/assets/75050655/9e8cdf2a-8926-43a7-a7df-b27d7fba9d9d)
+
+    2. Is it true?
+        
+    When there are no free variable that explicitly defines in outer scope, __closure__ is always None?
+
+    NO!!! Not necessary to be None.
+
+    When inner scope uses a free variable, then it will implicitly define in outer scope.
+
+    See Example 2.
+    
+## Examples
+### Example 1
+#### Code 
+    def foo():
+            a = 3
+            def bar():
+                print("bar")
+            return bar
+    y = foo()
+    print(y.__closure__ is None)
+#### Output
+    True
+### Example 2
+#### Code 
+    def foo():
+        a = 3
+        def bar():
+            def hell():
+                return a
+            return hell
+        return bar
+    bar = foo()
+    print(bar.__closure__ is None)
+    print(bar.__closure__)
+    print(bar().__closure__ == bar.__closure__)
+    print(bar.__closure__[0].cell_contents)
+#### Output
+    False
+    (<cell at 0x000001EC010B51E0: int object at 0x00007FFF2E7E9368>,)
+    True
+    3
+
+![image](https://github.com/40843245/Python_Tutorial/assets/75050655/5178888c-237e-4b13-8490-d00f8b1b2e71)
+
+    
 
 ## Ref
 
