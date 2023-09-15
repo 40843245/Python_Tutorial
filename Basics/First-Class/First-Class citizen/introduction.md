@@ -1,5 +1,11 @@
 # First-Class citizen in programming language
 ## Introduction
+From the GeeksForGeeks, 
+
+https://www.geeksforgeeks.org/what-is-first-class-citizen-in-javascript/
+
+I summarize a sentence and 3 features.
+
 A First-Class function is a function that can treat a function as an object.
 
 It has these features.
@@ -43,6 +49,29 @@ For example:
         
     Func2()
 
+## First-Class Object
+From a question whose title is " What are "first-class" objects? " in statckoverflow,
+
+https://stackoverflow.com/questions/245192/what-are-first-class-objects
+
+An user replies that
+
+    A first class object is an entity that can be dynamically created, destroyed, passed to a function, returned as a value, and have all the rights as other variables in the programming language have.
+
+According to the above definition. This can imply:
+
+        being expressible as an anonymous literal value
+        being storable in variables
+        being storable in data structures
+        having an intrinsic identity (independent of any given name)
+        being comparable for equality with other entities
+        being passable as a parameter to a procedure/function
+        being returnable as the result of a procedure/function
+        being constructible at runtime
+        being printable
+        being readable
+        being transmissible among distributed processes
+        being storable outside running processes
 ## Ref
 A simple introduction.
 
