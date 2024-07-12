@@ -1,0 +1,17 @@
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\40843\test2.py", line 18, in <module>
+  |     f()
+  |   File "C:\Users\40843\test2.py", line 2, in f
+  |     raise ExceptionGroup(
+  | ExceptionGroup: group1 (3 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | OSError: 1
+    +---------------- 2 ----------------
+    | SystemError: 2
+    +---------------- 3 ----------------
+    | ExceptionGroup: group2 (2 sub-exceptions)
+    +-+---------------- 1 ----------------
+      | OSError: 3
+      +---------------- 2 ----------------
+      | RecursionError: 4
+      +------------------------------------
