@@ -16,7 +16,13 @@ In Windows 11, in terminal, one can use -W options. Such as
     python -W ignore foo.py
 
 ## Ref
+From stackoverflow,
+
 https://stackoverflow.com/questions/14463277/how-to-disable-python-warnings
+
+About warnings module, visit Python Docs,
+
+https://docs.python.org/3/library/warnings.html
 
 
 
